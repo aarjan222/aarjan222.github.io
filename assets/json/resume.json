@@ -1,221 +1,241 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Aarjan Budathoki",
+    "label": "Electronics, Communication and Information Engineering Student",
     "image": "",
-    "email": "einstein@example.com",
-    "phone": "(912) 123-4567",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "077bei004.aarjan@pcampus.edu.np",
+    "phone": "+977 9821825820",
+    "summary": "Bachelor in Electronics, Communication and Information Engineering at Tribhuvan University, Institute of Engineering, Pulchowk Campus",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "city": "Lalitpur",
+      "countryCode": "NP",
+      "region": "Nepal"
     },
-    "profiles": []
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "aarjanbudathoki",
+        "url": "https://github.com/aarjanbudathoki"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "aarjanbudathoki",
+        "url": "https://linkedin.com/in/aarjanbudathoki"
+      },
+      {
+        "network": "YouTube",
+        "username": "aarjanbudathoki",
+        "url": "https://youtube.com/@aarjanbudathoki"
+      },
+      {
+        "network": "Facebook",
+        "username": "aarjanbudathoki",
+        "url": "https://facebook.com/aarjanbudathoki"
+      }
+    ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Princeton University, NJ",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity", "Description 2."]
+      "name": "LogicTronix [FPGA Design & Machine Learning Company]",
+      "position": "ADAS Perception Intern",
+      "location": "Lalitpur, Nepal",
+      "startDate": "2024-12-01",
+      "endDate": "2025-03-31",
+      "summary": "Developed robust pipelines for data acquisition & visualization of Velodyne 3D LiDAR sensor data using the Point Cloud Library (PCL).",
+      "highlights": [
+        "Developed robust pipelines for data acquisition & visualization of Velodyne 3D LiDAR sensor data using the Point Cloud Library (PCL)",
+        "Annotated custom 3D point cloud datasets using 3D bounding box labeling tools(Latte)",
+        "Implemented voxel grid down-sampling algorithms to optimized point cloud density for computationally efficient processing",
+        "Implemented RANSAC-based ground plane segmentation in C++ to effectively isolate dynamic objects such as pedestrians and vehicles from static ground surfaces",
+        "Implemented DBSCAN clustering algorithm in C++ for object detection and classification, targeting pedestrians, vehicles and traffic objects",
+        "Developed and optimized Kd-Tree data structure from scratch in C++ to accelerate nearest-neighbor search operations on large-scale point clouds"
+      ]
     },
     {
-      "name": "California Institute of Technology",
-      "position": "Visiting Professor",
-      "location": "Pasadena, California, US",
-      "startDate": "1933-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": ["Description 1.", "Description 2."]
+      "name": "Abhiyan Engineering Nepal Pvt. Ltd.",
+      "position": "Electronics Hardware Intern",
+      "location": "Lalitpur, Nepal",
+      "startDate": "2023-11-01",
+      "endDate": "2024-02-29",
+      "summary": "Contributed to hardware system development for the Automatic Sand Level Measurement Embedded System (PSLM Device)",
+      "highlights": [
+        "Contributed to hardware system development for the Automatic Sand Level Measurement Embedded System (PSLM Device), focusing on sensor integration, circuit design, and system prototyping"
+      ]
     },
     {
-      "name": "Kaiser Wilhelm Institute for Physics",
-      "position": "Director",
-      "location": "Berlin, Germany",
-      "startDate": "1917-01-01",
-      "endDate": "1933-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "Karl-Ferdinand University",
-      "position": "Professor of Theoretical Physics",
-      "location": "Prague, Czechoslovakia",
-      "startDate": "1911-01-01",
-      "endDate": "1917-01-01",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "name": "University of Zurich",
-      "position": "Associate Professor of Theoretical Physics",
-      "location": "Zurich, Switzerland",
-      "startDate": "1909-01-01",
-      "endDate": "1911-01-01",
-      "summary": "",
-      "highlights": []
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "name": "Robotics Club, IOE Pulchowk Campus",
+      "position": "Work Student",
+      "location": "Lalitpur, Nepal",
+      "startDate": "2022-08-01",
+      "endDate": "2023-09-30",
+      "summary": "Implemented kinematics modeling and odometry of four omniwheeled motion robot",
+      "highlights": [
+        "Implemented kinematics modeling and odometry of four omniwheeled motion robot",
+        "Implemented PID controllers for position and velocity tuning of brushed and brushless DC motors",
+        "Design & Fabrication of main controller board of the R2 BOT and power supply of bots in ABU ROBOCON 2022",
+        "Acquired proficiency in OpenCV, applying fundamental image processing techniques (thresholding, geometric transformations, filtering) and advanced computer vision (object detection, feature matching, video analysis)"
+      ]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Physics",
-      "studyType": "PhD",
-      "startDate": "1900-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": ["Theory of Relativity"],
-      "highlights": ["Description 1.", "Description 2."]
+      "institution": "Tribhuvan University, Institute of Engineering, Pulchowk Campus",
+      "location": "Lalitpur, Nepal",
+      "area": "Electronics, Communication and Information Engineering",
+      "studyType": "Bachelor",
+      "startDate": "2021-04-01",
+      "endDate": "Present",
+      "courses": [],
+      "highlights": ["Bachelor in Electronics, Communication and Information Engineering"]
     },
     {
-      "institution": "Eidgenössische Technische Hochschule",
-      "location": "Zurich, Switzerland",
-      "area": "Physics",
-      "studyType": "Federal teaching diploma",
-      "startDate": "1896-01-01",
-      "endDate": "1900-01-01",
-      "score": "",
+      "institution": "Hetauda School of Management and Social Sciences",
+      "location": "Hetauda, Nepal",
+      "area": "High School",
+      "studyType": "High School Diploma",
+      "startDate": "2018-06-01",
+      "endDate": "2020-12-31",
       "courses": [],
-      "highlights": ["Description 1.", "Description 2."]
+      "highlights": []
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "2nd Runner Up",
+      "date": "2022-08-01",
+      "awarder": "ABU Robocon 2022, Asia-Pacific Robotics Competition, India",
+      "summary": "Second runner-up position in international robotics competition"
     },
     {
-      "title": "Max Planck Medal",
-      "date": "2029-01-01",
-      "awarder": "German Physical Society",
-      "summary": ""
+      "title": "Nagase Award",
+      "date": "2022-08-01",
+      "awarder": "ABU Robocon 2022, Asia-Pacific Robotics Competition, India",
+      "summary": "Special recognition award"
+    },
+    {
+      "title": "Mabuchi Motor Award",
+      "date": "2023-08-01",
+      "awarder": "ABU Robocon 2023, Asia-Pacific Robotics Competition, Cambodia",
+      "summary": "Awarded for excellence in robotics competition"
+    },
+    {
+      "title": "Dronacharya Title Winner",
+      "date": "2024-01-08",
+      "awarder": "LOCUS 2024",
+      "summary": "Awarded for excellence in teaching and mentorship"
     }
   ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "icon": "fa-solid fa-envelope"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrodynamik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
-    }
-  ],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Programming Languages",
+      "level": "",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "C++",
+        "Python"
+      ]
+    },
+    {
+      "name": "Robotics Frameworks",
+      "level": "",
+      "keywords": [
+        "ROS 2 (ros2 control, SLAM, nav2 stack)"
+      ]
+    },
+    {
+      "name": "Tools",
+      "level": "",
+      "keywords": [
+        "YOLOv8",
+        "OpenCV",
+        "Latte (3D Annotation Tool)",
+        "PCL"
+      ]
+    },
+    {
+      "name": "Hardware",
+      "level": "",
+      "keywords": [
+        "Arduino",
+        "STM32",
+        "Velodyne VLP-16 3D LiDAR"
+      ]
+    },
+    {
+      "name": "Software",
+      "level": "",
+      "keywords": [
+        "Kicad",
+        "Altium",
+        "STM32CubeIDE",
+        "STM32CubeMX",
+        "VeloView"
       ]
     }
   ],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker",
-      "icon": ""
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
-    }
-  ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    },
-    {
-      "name": "Professor Jane Smith",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit."
-    }
-  ],
+  "languages": [],
+  "interests": [],
+  "references": [],
   "projects": [
     {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": ["Quantum Teleportation", "Quantum Cryptography"],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01"
+      "name": "Greenhouse Management using AWS IoT and Yocto Embedded Linux",
+      "summary": "Major Project - Developed an Embedded Linux OS for Raspberry Pi 4 (64-bit) using Yocto Project",
+      "highlights": [
+        "Embedded Linux: Developed an Embedded Linux OS for Raspberry Pi 4 (64-bit) using Yocto Project, featuring tools like git, python3, opkg, connman, mosquitto, and systemctl. Enabled UART, modifiable root filesystem, and WIC image support for deployment"
+      ],
+      "startDate": "2025-01-01",
+      "endDate": "2025-12-31"
+    },
+    {
+      "name": "Self-Driving Car",
+      "summary": "Minor Project - Integrated ros2 control for precise control of car with ackermann wheel steering",
+      "highlights": [
+        "Integrated ros2 control for precise control of car with ackermann wheel steering",
+        "Implemented SLAM algorithms to generate accurate Lidar-based maps of static environments",
+        "Incorporated nav2 stack for autonomous navigation and real-time path planning",
+        "Real-time object detection using a YOLOv8 model on live camera",
+        "Transformed and projected 2d lidar scan onto the camera image and its visualization"
+      ],
+      "startDate": "2024-03-01",
+      "endDate": "2024-03-31"
+    },
+    {
+      "name": "Elephant and Rabbit Robot",
+      "summary": "ABU Robocon 2023 (Cambodia) - Used the scikit-learn framework DBSCAN clustering algorithm for detecting field poles",
+      "highlights": [
+        "Used the scikit-learn framework DBSCAN clustering algorithm and Nearest Neighbors library for detecting field poles using 2D LiDAR point cloud data to accurately identify and localize the nearest pole within the game environment"
+      ],
+      "startDate": "2023-08-01",
+      "endDate": "2023-08-31"
+    },
+    {
+      "name": "R1 and R2 Robot",
+      "summary": "ABU Robocon 2022 (India) - Design & Fabrication of main controller board",
+      "highlights": [
+        "Design & Fabrication of main controller board of the R2 BOT and power supply of bots in ABU ROBOCON 2022"
+      ],
+      "startDate": "2022-08-01",
+      "endDate": "2023-02-28"
+    },
+    {
+      "name": "Maze Generation and Solving Algorithm",
+      "summary": "Data Structures and Algorithms Project - Implemented DFS and shortest path algorithms",
+      "highlights": [
+        "Implemented Depth-First Search (DFS) algorithm for procedural maze generation",
+        "Applied shortest pathfinding algorithms, including Dijkstra's Algorithm and A* Search, for efficient maze solving"
+      ],
+      "startDate": "2022-07-01",
+      "endDate": "2022-07-31"
+    },
+    {
+      "name": "Self-Balancing Robot",
+      "summary": "Instrumentation Project - Implemented PID Control for Angle Equilibrium using IMU",
+      "highlights": [
+        "Implemented PID Control for Angle Equilibrium using IMU"
+      ],
+      "startDate": "2022-07-01",
+      "endDate": "2022-07-31"
     }
   ]
 }

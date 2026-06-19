@@ -1,81 +1,171 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: work
-giscus_comments: true
+title: ABU Robocon 2023 - Elephant & Rabbit Robots
+description: Asia-Pacific Robotics Competition 2023, Cambodia
+img: assets/img/2_abu_robocon_2023_robot_contest/robocon2023-theme-wallpaper.png
+importance: 3
+category: College Projects
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+This project was developed for ABU Robocon 2023, the Asia-Pacific Robotics Competition held in Cambodia. Our team created two robots: the **Elephant Robot** and the **Rabbit Robot**, using advanced computer vision and LiDAR-based pole detection for autonomous navigation and object identification.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## The Robots
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/rabbit-robot.jpg" title="Rabbit Robot" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/elephant-robot1.jpg" title="Elephant Robot" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Left: The Rabbit Robot with omni-wheel kinematics for agile movement. Right: The Elephant Robot designed for ring-throwing tasks.
 </div>
+
+## Rabbit Robot Design
+
+The Rabbit Robot features a 4-wheel omni-wheel kinematics system for agile movement and precise positioning. It uses advanced computer vision and LiDAR-based pole detection for autonomous navigation.
+
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/rabbit-robot-1.jpg" title="Rabbit Robot Front View" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/rabbit-robot-2.jpg" title="Rabbit Robot Side View" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/rabbit-robot-base-4-wheel-omni-kinematics.jpg" title="Omni-Wheel Base" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Rabbit robot design featuring omni-wheel kinematics for precise movement control.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+## Elephant Robot Design
+
+The Elephant Robot was designed for the ring-throwing task, incorporating mechanical systems and precision control mechanisms.
 
 <div class="row justify-content-sm-center">
     <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/elephant-robot-throws-ring.jpg" title="Ring Throwing Mechanism" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/me-with-elephant-robot-tuning-parameters.jpg" title="Parameter Tuning" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Left: Elephant robot ring-throwing mechanism in action. Right: Fine-tuning robot parameters.
 </div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+## Rabbit Robot Slope Climbing Demo
 
-{% raw %}
+The Rabbit Robot demonstrates its climbing capabilities on inclined surfaces during testing.
 
-```html
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <video class="img-fluid rounded z-depth-1" controls autoplay loop>
+            <source src="/assets/img/2_abu_robocon_2023_robot_contest/rabbit-robot-learning-to-climb-sleop.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</div>
+<div class="caption">
+    Rabbit robot learning to climb slopes during testing phase.
+</div>
+
+## Technical Implementation
+
+Both robots utilized the scikit-learn framework's DBSCAN clustering algorithm and Nearest Neighbors library for detecting field poles using 2D LiDAR point cloud data, enabling accurate identification and localization of the nearest pole within the game environment.
+
 <div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/robocon2023-matches-schedule.jpg" title="Competition Schedule" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/team-with-rabbit-robot.jpg" title="Team with Robot" class="img-fluid rounded z-depth-1" %}
+    </div>
 </div>
-```
+<div class="caption">
+    The competition schedule and our team posing with the rabbit robot.
+</div>
 
-{% endraw %}
+## Competition Experience
+
+The Nepal team participated in ABU Robocon 2023 held in Phnom Penh, Cambodia. The team worked tirelessly to prepare for the international competition, demonstrating advanced robotics capabilities and teamwork.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/cambodia-intro-opening-ceremony.jpg" title="Opening Ceremony" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/nepal-team-in-phnom-phenh.jpg" title="Nepal Team in Cambodia" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/nepal-team-ready-for-match-competition.jpg" title="Ready for Competition" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Opening ceremony, team arrival in Cambodia, and preparation for matches.
+</div>
+
+## Achievement
+
+The project earned the prestigious Mabuchi Motor Award at ABU Robocon 2023, recognizing the team's technical excellence and innovation in robotics design and implementation.
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/nepal-team-receiving-mabuchi-motor-award.jpg" title="Receiving Mabuchi Motor Award" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/me_carrying_mabuch_motor_award.jpg" title="With Mabuchi Motor Award" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    The Nepal team receiving the Mabuchi Motor Award and proudly displaying the achievement.
+</div>
+
+## Team Collaboration
+
+The project showcased excellent teamwork and international collaboration, with the Nepal team engaging with other participating teams and supporters during the competition.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/nepal-team-with-veitname-team.jpg" title="With Vietnam Team" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/nepal-team-supporter-in-stadium.jpg" title="Supporters in Stadium" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/717247914_969685699276982_2152772285288802424_n.jpg" title="Competition Moment" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    International collaboration with other teams, supporter engagement, and memorable competition moments.
+</div>
+
+## Debug Sessions
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/2_abu_robocon_2023_robot_contest/rabbit-robot-debug-session-after-first-match.jpg" title="Debug Session After First Match" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Debug session after the first match to analyze performance and improve robot functionality.
+</div>
+
+## External Resources
+
+### Competition Websites
+
+- <a href="https://robotics.pcampus.edu.np/robocon/2023/" target="_blank">ABU Robocon 2023 Nepal Team Website</a>
+- <a href="https://robotics.pcampus.edu.np/" target="_blank">Robotics Club, Pulchowk Campus</a>
+- <a href="https://en.wikipedia.org/wiki/ABU_Robocon" target="_blank">ABU Robocon Wikipedia</a>
+
+### Competition Match Videos
+
+- <a href="https://www.youtube.com/watch?v=uhSunMUO-Mk" target="_blank">Nepal vs China Match - ABU Robocon 2023</a>
+- <a href="https://www.youtube.com/watch?v=x6yWKgoqcsk" target="_blank">Nepal vs Hong Kong Match - ABU Robocon 2023</a>
+- <a href="https://www.youtube.com/watch?v=XVBwyUMJKO4" target="_blank">Nepal vs Egypt Match - ABU Robocon 2023</a>
+- <a href="https://www.youtube.com/watch?v=2JjJlKdaBr4" target="_blank">Practice Session - Robotics Club Pulchowk Campus</a>

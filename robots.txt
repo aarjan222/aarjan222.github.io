@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://aarjan222.github.io/sitemap.xml

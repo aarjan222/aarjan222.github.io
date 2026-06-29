@@ -1,13 +1,13 @@
 ---
-layout: cv
+layout: page
 permalink: /resume/
-title: Resume
-set_name: Resume
+title: CV
 nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/Aarjan_Budathoki_CV.pdf # you can also use external links here
-cv_format: jsonresume # options: rendercv, jsonresume
-# description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
+nav_order: 2
 ---
+
+<script>
+  window.location.href = "/assets/pdf/Aarjan_Budathoki_CV.pdf";
+</script>
+
+If the PDF doesn't open automatically, <a href="/assets/pdf/Aarjan_Budathoki_CV.pdf">click here</a> to view my CV.

@@ -5,6 +5,7 @@ description: Hardware design and development for industrial hydropower systems
 img: assets/img/experience/electronics_hardware_intern.jpg
 importance: 2
 category: Industry Experience
+published: false
 ---
 
 2-month internship focusing on electronics hardware design and development for industrial hydropower systems.

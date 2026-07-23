@@ -5,6 +5,7 @@ description: Robot development for ABU Robocon competition
 img: assets/img/experience/robotics_working_student.jpg
 importance: 1
 category: Academic Experience
+published: false
 ---
 
 18-month working student position at the Robotics Club, IOE Pulchowk Campus, contributing to ABU Robocon robot development and gaining hands-on experience in robotics systems.

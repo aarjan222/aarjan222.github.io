@@ -26,14 +26,11 @@ social: true # includes social icons at the bottom of the page
 #   limit: 3 # leave blank to include all the blog posts
 ---
 
+I am currently working as an Embedded Firmware Developer at <a href="https://www.yatrimotorcycles.com/" target="_blank">Yatri Motorcycles</a>, contributing to one of Nepal's first locally manufacturing EV companies. At Yatri, I develop embedded firmware for ARM Cortex M4/M7 based automotive VCU for the Yatri P2 electric scooter, integrating motor controllers over CAN, implementing advanced features like hill hold, cruise control, and OTA update frameworks.
+
+My experience spans sensor fusion, perception systems, and embedded hardware development. I previously interned at LogicTronix in Sensor Fusion & Perception, where I developed pipelines for 3D LiDAR data processing using PCL, implemented RANSAC-based ground plane segmentation, DBSCAN clustering, and PCL Euclidean clustering, and built Kd-Tree structures for efficient point cloud operations. As a Working Student at the Robotics Club, IOE Pulchowk Campus, I contributed to ABU Robocon competitions, working on robot kinematics, control systems, and PCB design.
+
 I am an Electronics Engineering undergraduate from Tribhuvan University, IOE Pulchowk Campus, with a strong passion for robotics, autonomous systems, and embedded technology.
-
-I have completed two internships—one in Sensor Fusion & Perception(3 months) and another in Electronics Hardware(2 months) for an industrial hydropower company. As a Working Student at the Robotics Club(18 months), IOE Pulchowk Campus, I contributed to ABU Robocon(Robot Contest), gaining hands-on experience in Robot Kinematics, Control Systems, Sensor Fusion, PCB design, and Fabrication.
-
-My minor thesis focused on an Ackermann Steering-based autonomous vehicle for indoor Mapping, Path Planning & Navigation using ROS2, Nav2, and SLAM, while my major thesis involved developing an IoT-based Greenhouse Management System leveraging AWS services and Yocto Linux. 
-
-Academically, I took a Robotics Elective, worked on Robotics project  in Mapping, Navigation and Pick & Place object simulations in Gazebo.
-I am particularly passionate about Sensor Fusion and Perception for autonomous vehicles and self-driving cars, constantly seeking to expand my expertise in this domain.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 

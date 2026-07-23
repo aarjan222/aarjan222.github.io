@@ -19,3 +19,8 @@ custom_social_linkedin:
   logo: https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg
   title: LinkedIn
   url: https://www.linkedin.com/in/aarjan-budathoki-548366239
+
+custom_social_youtube:
+  logo: https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg
+  title: YouTube
+  url: https://www.youtube.com/@aarjanbudathoki2085

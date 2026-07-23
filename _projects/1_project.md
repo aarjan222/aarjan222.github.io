@@ -129,7 +129,20 @@ For optimal vehicle motion, the system implements both Proportional-Integral-Der
 
 - <a href="/assets/img/1_autonomous_car_project/turtle-bot-working-ros2-topics-publish-subscribe-model-from-laptop-keyboard.mp4" target="_blank">ROS2 Topics Demo (MP4)</a>
 
+### Social Media
+
+- <a href="https://www.linkedin.com/in/aarjan-budathoki-548366239/recent-activity/all/" target="_blank">LinkedIn Post (Project Details, Group Photos, Demo Videos)</a>
+
 ## Team
+
+<div class="row justify-content-sm-center">
+    <div class="col-sm-4 mt-2 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1_autonomous_car_project/Minor-Project-Group-Photo.jpeg" title="Project Team" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Two Project team members with the 1 project: autonomous car prototype and 2nd project: VTOL flying drone.
+</div>
 
 **Project Members:**
 - Aarjan Budathoki (PUL077BEI004)

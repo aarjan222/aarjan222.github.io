@@ -133,6 +133,14 @@ For optimal vehicle motion, the system implements both Proportional-Integral-Der
 
 - <a href="https://www.linkedin.com/in/aarjan-budathoki-548366239/recent-activity/all/" target="_blank">LinkedIn Post (Project Details, Group Photos, Demo Videos)</a>
 
+## Troubleshooting
+
+During development, I encountered a ros2_control error when trying to implement the Ackermann steering controller for the autonomous car. The error message was: "According to the loaded plugin descriptions the class ackermann_steering_controller/AckermannSteeringController with base class type hardware_interface::SystemInterface does not exist."
+
+The issue was that the ackermann_steering_controller was exported with base class type as controller_interface::ChainableControllerInterface, but ros2_control_node was expecting it to be of base class type as hardware_interface::SystemInterface. I posted this issue on <a href="https://www.reddit.com/r/ROS/comments/1ap3g6p/how_to_solve_this_kind_of_ros2_control_error_ros2/" target="_blank">r/ROS subreddit</a> and received helpful guidance from the community.
+
+The solution involved using a chainable controller pattern, where the chainable controller links into a system controller, following the pattern from ros2_control_demos example_12. This approach allows the system controller to handle the hardware interface while the chainable controller processes commands as they pass through.
+
 ## Team
 
 <div class="row justify-content-sm-center">
